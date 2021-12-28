@@ -40,16 +40,7 @@ export default function Projects() {
             <div className="bgCircle"></div>
           </div>
         ))}
-        <div className="card">
-            <div className="top">
-            </div>
-            <div className="center">
-            </div>
-            <div className="bottom">
-              More projects are coming soon...
-            </div>
-            <div className="bgCircle"></div>
-          </div>
+        <h3 style={{color: "grey", margin: "10px"}}>More projects are coming soon...</h3>
       </div>
     </div>
   );
