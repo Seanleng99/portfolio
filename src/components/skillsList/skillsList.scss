@@ -1,0 +1,20 @@
+@import "../../global.scss";
+
+.skillsList {
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 50px;
+  padding: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .5s ease;
+
+  @include mobile{
+    margin-right: 20px;
+  }
+
+  &.active {
+    background-color: $mainColor;
+    color: white;
+  }
+}
