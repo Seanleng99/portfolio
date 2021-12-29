@@ -8,6 +8,9 @@
 
   h1 {
     font-size: 50px;
+    border-bottom: 1px solid grey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
     @include mobile{
       font-size: 20px;

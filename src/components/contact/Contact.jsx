@@ -9,7 +9,7 @@ export default function Contact() {
         <img src="assets/shake.svg" alt="" />
       </div>
       <div className="right">
-        <h2>Feel Free to Contact Me &hearts;</h2>
+        <h2>Contact Me &hearts;</h2>
         <div className="contactContainer">
           <Call className="icon" />
           <span>+60168772499</span>

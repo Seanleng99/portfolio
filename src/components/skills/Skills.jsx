@@ -15,15 +15,15 @@ export default function Skills() {
   const list = [
     {
       id: "programming",
-      title: "Programming Languages",
+      title: "Programming",
     },
     {
       id: "web",
-      title: "Web Development",
+      title: "Web",
     },
     {
       id: "mobile",
-      title: "Mobile App Development",
+      title: "Mobile",
     },
     {
       id: "database",
