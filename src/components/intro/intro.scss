@@ -40,6 +40,10 @@
     flex: 0.5;
     position: relative;
 
+    @include mobile{
+      align-items: center;
+    }
+
     .wrapper {
       width: 100%;
       height: 100%;
@@ -93,7 +97,7 @@
     a {
       position: absolute;
       bottom: 10px;
-      left: 40%;
+      left: 50%;
 
       img {
         width: 30px;
