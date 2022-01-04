@@ -8,6 +8,9 @@ export default function Projects() {
       img: "assets/projects/application_management.jpg",
       desc:
         "Optimize the internal oraganization operational process by transforming the manual paper form into a digitalized system.",
+      techstack: [
+        "PHP", "JavaScript", "HTML/CSS", "MySQL"
+      ],
     },
     {
       id: 2,
@@ -15,6 +18,9 @@ export default function Projects() {
       img: "assets/projects/data_visualization.jpg",
       desc:
         "Visualize the Assets & Vehicles logistics data in dashboard form to aid in decision making for TD's executives.",
+      techstack: [
+        "Python", "Django", "HTML/CSS", "MySQL", "Tableau"
+      ],
       featured: true,
     },
   ];
@@ -32,15 +38,23 @@ export default function Projects() {
               />
             </div>
             <div className="center">
-              <h4>{d.title}</h4>
+              <h5>{d.title}</h5>
             </div>
             <div className="bottom">
               {d.desc}
             </div>
-            <div className="bgCircle"></div>
+            <div className="techStack">
+              <ul>
+                {d.techstack.map((ts) => (
+                  <li className="techStackItem">
+                    {ts}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         ))}
-        <h3 style={{color: "grey", margin: "10px"}}>More projects are coming soon...</h3>
+        <h5 style={{ color: "grey", margin: "8px" }}>More projects are coming soon...</h5>
       </div>
     </div>
   );
