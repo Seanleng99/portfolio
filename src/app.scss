@@ -11,10 +11,10 @@
         top: 70px;
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
-        // scrollbar-width: none;   //for firefox
-        // &::-webkit-scrollbar{    // for safari chrome
-        //     display: none;
-        // }
+        scrollbar-width: none;   //for firefox
+        &::-webkit-scrollbar{    // for safari chrome
+            display: none;
+        }
 
         @include mobile{
             height: calc(100vh - 50px);
