@@ -16,6 +16,7 @@
   transition: all 1s ease;
 
   @include mobile{
+    height: calc(100vh - 50px);
     width: 50%;
     right: -50%;
   }
