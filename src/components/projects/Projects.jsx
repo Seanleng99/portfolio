@@ -4,29 +4,30 @@ export default function Projects() {
   const data = [
     {
       id: 1,
-      title: "Pentest Application Management System",
-      img: "assets/projects/application_management.jpg",
+      title: "Online Printing System",
+      img: "assets/projects/online_printing.jpg",
       desc:
-        "Optimize the internal oraganization operational process by transforming the manual paper form into a digitalized system.",
+        "No need to go to printing shop. Just print at home and wait for the delivery.",
       techstack: [
-        "PHP", "JavaScript", "HTML/CSS", "MySQL"
+        "Python", "Django", "Vue.js", "MySQL"
       ],
     },
     {
       id: 2,
-      title: "EIS for Data Visualization of TD's Logistic System (MINDEF): Assets & Vehicles",
+      title: "EIS for Data Visualization of TD's Logistic System (MINDEF)",
       img: "assets/projects/data_visualization.jpg",
       desc:
-        "Visualize the Assets & Vehicles logistics data in dashboard form to aid in decision making for TD's executives.",
+        "Visualizing the logistics data to aid in decision making for TD's executives.",
       techstack: [
-        "Python", "Django", "HTML/CSS", "MySQL", "Tableau"
+        "Python", "Django", "JavaScript", "MySQL", "Tableau"
       ],
       featured: true,
     },
   ];
   return (
     <div className="projects" id="projects">
-      <h1>Featured Projects</h1>
+      <div className="blank"></div>
+      <h1>&lt; Featured Projects /&gt;</h1>
       <div className="container">
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
@@ -54,7 +55,7 @@ export default function Projects() {
             </div>
           </div>
         ))}
-        <h5 style={{ color: "grey", margin: "8px" }}>More projects are coming soon...</h5>
+        <h5 style={{ color: "grey", margin: "8px" }}>More projects in future...</h5>
       </div>
     </div>
   );

@@ -59,7 +59,8 @@ export default function Skills() {
 
   return (
     <div className="skills" id="skills">
-      <h1>Skills</h1>
+      <div className="blank"></div>
+      <h1>&lt; Skills /&gt;</h1>
       <ul>
         {list.map((item) => (
           <SkillsList

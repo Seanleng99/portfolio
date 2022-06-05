@@ -1,7 +1,6 @@
 @import "../../global.scss";
 
 .projects {
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,8 +9,13 @@
     justify-content: space-around;
   }
 
+  .blank {
+    height: 15px;
+  }
+
   h1 {
-    font-size: 50px;
+    font-size: 40px;
+    border-bottom: 1px solid grey;
     overflow: hidden;
 
     @include mobile{
@@ -33,6 +37,7 @@
 
     .card {
       padding: 0;
+      background-color: #fff;
       width: 280px;
       height: 75%;
       border-radius: 5px;
@@ -132,7 +137,7 @@
 
           .techStackItem {
             height: 10px;
-            color: dimgray;
+            color: rgb(48,48,48);
             font-size: 8px;
             font-weight: 400;
             margin: 3px 5px;
