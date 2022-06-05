@@ -17,6 +17,7 @@
 
   @include mobile{
     height: calc(100vh - 50px);
+    top: 50px;
     width: 50%;
     right: -50%;
   }
